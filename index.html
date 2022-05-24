@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form id="formulario" style="display: flex; flex-direction:column">
+        <h2>Are the blocks overlap?</h2>
+        <div style="display: flex; flex-direction:row">
+
+            <div style="margin: 4px;">
+                <h3>First block</h3>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select orientation</h5>
+                    <select name="orientation1" id="orientation1">
+                        <option value="h">Horizontal</option>
+                        <option value="v">Vertical</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select x-coordinate of bottom left</h5>
+                    <select name="x1" id="x1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select y-coordinate of bottom left</h5>
+                    <select name="y1" id="y1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select length</h5>
+                    <select name="lenth1" id="length1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            </div>
+            <div style="margin: 4px;">
+                <h3>Second block</h3>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select orientation</h5>
+                    <select name="orientation2" id="orientation2">
+                        <option value="h">Horizontal</option>
+                        <option value="v">Vertical</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select x-coordinate of bottom left</h5>
+                    <select name="x2" id="x2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select y-coordinate of bottom left</h5>
+                    <select name="y2" id="y2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div style="display: flex; flex-direction:row">
+                    <h5>Select length</h5>
+                    <select name="length2" id="length2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <button type="submit">Check it</button>
+    </form>
+    <br>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
